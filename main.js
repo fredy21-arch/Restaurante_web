@@ -2,10 +2,10 @@
 window.addEventListener("load", function(){
   // -------page loader
 
-document.querySelector(".page-loader").classList.add("fade-out");
-setTimeout(function(){
-document.querySelector(".page-loader").style.display="none";
-},600);
+// document.querySelector(".page-loader").classList.add("fade-out");
+// setTimeout(function(){
+// document.querySelector(".page-loader").style.display="none";
+// },600);
      // ----animation on scroll
   AOS.init();
 });
